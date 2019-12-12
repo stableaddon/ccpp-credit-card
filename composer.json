@@ -1,0 +1,27 @@
+{
+    "name": "stableaddon/ccpp-credit-card",
+    "description": "StableAddons 2c2p Payment Gateway module",
+    "authors": [
+        {
+            "name": "StableAddons.com",
+            "email": "support@stableaddon.com"
+        }
+    ],
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.1.3|~7.2.0"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+          "registration.php"
+        ],
+        "psr-4": {
+            "Stableaddon\\CcppCreditCard\\": ""
+        }
+    }
+}
